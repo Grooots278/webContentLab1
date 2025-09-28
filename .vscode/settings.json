@@ -1,0 +1,12 @@
+{
+    "dotnet.defaultSolution": "Lab1Sharp.sln",
+    "files.exclude": {
+        "**/bin": true,
+        "**/obj": true,
+        "**/publish": true
+    },
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    }
+}

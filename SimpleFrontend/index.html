@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genre output</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Genre From Backend</h1>
+        </header>
+
+        <main>
+
+            <div id="loading" class="loading">
+                <p>Loading Gentres...</p>
+            </div>
+
+            <div class="products-container" id="products-container" style="display: none;">
+                <h2>Available Genres:</h2>
+                <ul class="products-list" id="products-list"></ul>
+            </div>
+
+            <div class="error-container" id="error-container" style="display: none;">
+                <h2>X Error</h2>
+                <p id="error-message"></p>
+                <button onclick="loadProducts()" class="retry-btn">Try Again</button>
+            </div>
+        </main>
+
+        <footer>
+            <p>Simple C# Docker App</p>
+        </footer>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

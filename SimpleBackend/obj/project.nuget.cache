@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "nmLugUMLllU=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Dimon\\Files\\Programs\\Learn\\webContentLab1\\SimpleBackend\\SimpleBackend.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dimon\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.6\\microsoft.aspnetcore.openapi.9.0.6.nupkg.sha512",
+    "C:\\Users\\Dimon\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
